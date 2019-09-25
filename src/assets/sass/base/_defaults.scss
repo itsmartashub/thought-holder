@@ -1,0 +1,19 @@
+.transition-2 {
+    transition: all .2s $cub-1;
+}
+
+.transition-3 {
+    transition: all .3s $cub-1;
+}
+
+.translateX {
+	transform: translateX(-100%) !important;
+}
+
+hr {
+	background: rgba(grey, .5);
+	width: 90%;
+	margin: 0 auto;
+	height: .1rem;
+	border: none;
+}

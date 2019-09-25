@@ -1,0 +1,27 @@
+.btn {
+	&,
+	&:link,
+	&:visited {
+		// text-decoration: none;
+		display: inline-block;
+		border-radius: .8rem;
+		cursor: pointer;
+		padding: 1rem 3rem;
+		background: $grey;
+		color: grey;
+		font-family: inherit;
+		@extend .transition-2;
+	}
+
+	&:active,
+	&:focus {
+		outline: none;
+		transform: scale(.96);
+	}
+
+	// &:hover {
+	// 	background: orangered;
+	// 	box-shadow: 0px 0px 3px 1px orangered;
+	// 	color: inherit;
+	// }
+}

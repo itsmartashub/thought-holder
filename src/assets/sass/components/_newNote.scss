@@ -1,0 +1,19 @@
+.note {
+	width: 55%;
+	background: orange;
+	margin: 0 auto;
+
+	input,
+	textarea {
+		border: none;
+		padding: 1rem;
+		width: 100%;
+		font-family: inherit;
+	}
+
+	input:focus,
+	textarea:focus {
+		outline: none;
+	}
+
+}
