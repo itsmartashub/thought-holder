@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 // import Tags from './views/Tags.vue'
 import AllNotes from './components/AllNotes.vue'
+import Archive from './components/Archive.vue'
 
 import Signup from './components/auth/Signup.vue'
 import Login from './components/auth/Login.vue'
@@ -33,6 +34,7 @@ const routes = [
 	// 	// which is lazy-loaded when the route is visited.
 	// 	component: () => import(/* webpackChunkName: "about" */ './views/Tags.vue')
     // },
+	{ path: '/archive', name: "archive", component: Archive },
 
 	{ path: '/signup', name: "signup", component: Signup },
 	{ path: '/login', name: "login", component: Login }
